@@ -67,3 +67,7 @@ forExam.problem2 = forExam.problem2.filter((item) => {
 })
 
 console.log(forExam.problem2)
+
+// problem3의 배열의 모든 요소를 하나의 문자열로 합치기
+forExam.problem3 = forExam.problem3.join('');
+console.log(forExam.problem3);
