@@ -71,3 +71,14 @@ console.log(forExam.problem2)
 // problem3의 배열의 모든 요소를 하나의 문자열로 합치기
 forExam.problem3 = forExam.problem3.join('');
 console.log(forExam.problem3);
+
+// problem4의 배열을 사용하여 각 포켓몬의 이름을 키로, 이름의 길이를 값으로 하는 객체를 생성
+const obj = {};
+
+for (const item of forExam.problem4) {
+  if (typeof item === 'string') {
+    obj[item] = item.length;
+  }
+}
+
+console.log(obj);
