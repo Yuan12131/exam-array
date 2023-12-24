@@ -82,3 +82,8 @@ for (const item of forExam.problem4) {
 }
 
 console.log(obj);
+
+// problem5의 배열을 알파벳 순서로 정렬
+forExam.problem5.sort();
+
+console.log(forExam.problem5);
