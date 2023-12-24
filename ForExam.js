@@ -87,3 +87,10 @@ console.log(obj);
 forExam.problem5.sort();
 
 console.log(forExam.problem5);
+
+// problem6의 배열에서 첫 번째로 '이'가 포함된 포켓몬 찾기
+const six = forExam.problem6.find((pokemon) => {
+  return typeof pokemon === 'string' && pokemon.includes('이');
+});
+
+console.log(six);
