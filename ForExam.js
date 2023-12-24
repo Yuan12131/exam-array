@@ -113,3 +113,7 @@ console.log(eight);
 // problem9의 배열에 '이브이'를 추가하고, 결과를 출력
 forExam.problem9.push("이브이");
 console.log(forExam.problem9);
+
+// problem10의 배열에서 마지막 요소를 제거하고, 결과를 출력
+forExam.problem10.pop();
+console.log(forExam.problem10);
