@@ -94,3 +94,10 @@ const six = forExam.problem6.find((pokemon) => {
 });
 
 console.log(six);
+
+// problem7의 배열의 모든 포켓몬 이름이 '이'를 포함하고 있는지 확인
+const seven = forExam.problem7.every((item) => {
+  return typeof item === 'string' && item.includes("이")
+})
+
+console.log(seven);
