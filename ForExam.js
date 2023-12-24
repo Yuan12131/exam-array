@@ -58,3 +58,12 @@ forExam.problem1 = forExam.problem1.map((item) => {
 });
 
 console.log(forExam.problem1);
+
+// problem2의 배열에서 이름에 '이'가 들어가 포켓몬만 필터링
+forExam.problem2 = forExam.problem2.filter((item) => {
+  if (typeof item === 'string' && item.includes("이")) {
+    return item
+  }
+})
+
+console.log(forExam.problem2)
