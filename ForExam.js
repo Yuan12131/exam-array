@@ -163,3 +163,12 @@ const nameLengthsArray = forExam.problem19.map((item) => {
 });
 
 console.log(nameLengthsArray);
+
+// problem20의 배열에서 이름 길이가 3 글자 이상인 포켓몬들만 필터링
+const threeLength = forExam.problem20.filter((item) => {
+  if (item.length >= 3) {
+    return item
+  }
+})
+
+console.log(threeLength);
