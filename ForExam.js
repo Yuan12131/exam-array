@@ -153,3 +153,6 @@ console.log(flat);
 // problem17의 배열에서 '라이츄'를 찾아 그 인덱스를 출력
 const ind = forExam.problem17.indexOf("라이츄");
 console.log(ind);
+
+// problem18의 배열을 거꾸로 순서를 뒤집어 출력
+console.log(forExam.problem18.reverse());
