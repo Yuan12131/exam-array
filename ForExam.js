@@ -117,3 +117,7 @@ console.log(forExam.problem9);
 // problem10의 배열에서 마지막 요소를 제거하고, 결과를 출력
 forExam.problem10.pop();
 console.log(forExam.problem10);
+
+// problem11의 배열의 첫 번째 요소를 제거하고, 결과를 출력
+forExam.problem11.shift();
+console.log(forExam.problem11);
