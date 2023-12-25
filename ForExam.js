@@ -145,3 +145,7 @@ console.log(clonedArray);
 // problem15의 배열에서 마지막 두 요소만 가져오기
 const lastTwoElements = forExam.problem15.slice(-2);
 console.log(lastTwoElements);
+
+// problem16의 두 배열을 하나의 배열로 합치기
+const flat = forExam.problem16.flat();
+console.log(flat);
