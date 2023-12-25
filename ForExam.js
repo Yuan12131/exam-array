@@ -125,3 +125,11 @@ console.log(forExam.problem11);
 // problem12의 배열의 시작 부분에 '피카츄'를 추가하고 결과를 출력
 forExam.problem12.unshift("피카츄");
 console.log(forExam.problem12);
+
+// problem13의 배열에서 '라이츄'를 '이브이'로 변경
+const index = forExam.problem13.indexOf("라이츄");
+if (index !== -1){
+  forExam.problem13.splice(index, 1, "이브이");
+}
+
+console.log(forExam.problem13);
