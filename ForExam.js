@@ -156,3 +156,10 @@ console.log(ind);
 
 // problem18의 배열을 거꾸로 순서를 뒤집어 출력
 console.log(forExam.problem18.reverse());
+
+// problem19의 배열에서 각 포켓몬의 이름 길이를 배열로 만들기
+const nameLengthsArray = forExam.problem19.map((item) => {
+  return typeof item === 'string' ? item.length : null;
+});
+
+console.log(nameLengthsArray);
