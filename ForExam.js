@@ -149,3 +149,7 @@ console.log(lastTwoElements);
 // problem16의 두 배열을 하나의 배열로 합치기
 const flat = forExam.problem16.flat();
 console.log(flat);
+
+// problem17의 배열에서 '라이츄'를 찾아 그 인덱스를 출력
+const ind = forExam.problem17.indexOf("라이츄");
+console.log(ind);
