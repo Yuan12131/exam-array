@@ -141,3 +141,7 @@ clonedArray.push('이브이');
 
 console.log(forExam.problem14);
 console.log(clonedArray);
+
+// problem15의 배열에서 마지막 두 요소만 가져오기
+const lastTwoElements = forExam.problem15.slice(-2);
+console.log(lastTwoElements);
