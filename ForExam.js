@@ -121,3 +121,7 @@ console.log(forExam.problem10);
 // problem11의 배열의 첫 번째 요소를 제거하고, 결과를 출력
 forExam.problem11.shift();
 console.log(forExam.problem11);
+
+// problem12의 배열의 시작 부분에 '피카츄'를 추가하고 결과를 출력
+forExam.problem12.unshift("피카츄");
+console.log(forExam.problem12);
