@@ -172,3 +172,10 @@ const threeLength = forExam.problem20.filter((item) => {
 })
 
 console.log(threeLength);
+
+// problem21의 배열의 각 요소를 리스트 아이템 (<li>)으로 변환
+forExam.problem21 = forExam.problem21.map((item) => {
+  return "<li>" + item + "</li>"
+})
+
+console.log(forExam.problem21);
