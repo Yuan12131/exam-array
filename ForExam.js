@@ -202,3 +202,8 @@ console.log(option);
 const nav = `<nav>${forExam.problem25.map((item) => item)}</nav>`
 
 console.log(nav);
+
+// problem26의 배열의 각 요소를 <section> 태그로 감싸고 전체를 <article>태그로 감싸기
+const article = `<section>${forExam.problem26.map((item) => `<article>${item}</article>`).join('')}`
+
+console.log(article);
