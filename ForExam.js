@@ -197,3 +197,8 @@ console.log(jiwoo);
 const option = `<option>${forExam.problem24.map(item => `<section>${item}</section>`).join('')}</option>`;
 
 console.log(option);
+
+// problem25의 배열을 모두 포함하는 <nav>태그 만들기
+const nav = `<nav>${forExam.problem25.map((item) => item)}</nav>`
+
+console.log(nav);
