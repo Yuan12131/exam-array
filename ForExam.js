@@ -212,3 +212,8 @@ console.log(article);
 const ol = forExam.problem27.map((item) => `<ol>${item}</ol>`).join('')
 
 console.log(ol);
+
+// problem28의 배열의 각 요소를 <input> 태그의 placeholder로 설정, 결과는 <input> 태그의 배열이어야 함
+const inputTags = forExam.problem28.map(item => `<input placeholder="${item}">`).join('');
+
+console.log(inputTags);
