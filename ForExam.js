@@ -207,3 +207,8 @@ console.log(nav);
 const article = `<section>${forExam.problem26.map((item) => `<article>${item}</article>`).join('')}`
 
 console.log(article);
+
+// problem27의 배열의 모든 <li>태그를 <ol>태그로 감싸기
+const ol = forExam.problem27.map((item) => `<ol>${item}</ol>`).join('')
+
+console.log(ol);
