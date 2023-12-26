@@ -217,3 +217,8 @@ console.log(ol);
 const inputTags = forExam.problem28.map(item => `<input placeholder="${item}">`).join('');
 
 console.log(inputTags);
+
+// problem29의 배열을 <footer>태그로 감싸기
+const footer = `<footer>${forExam.problem29.map(item => item).join('')}</footer>`;
+
+console.log(footer);
