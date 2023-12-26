@@ -192,3 +192,8 @@ const jiwoo = forExam.problem23.filter((item) => {
   }
 })
 console.log(jiwoo);
+
+// problem24의 배열의 각 요소를 <option> 태그로 감싸고, 전체를 <section>태그로 감싸기
+const option = `<option>${forExam.problem24.map(item => `<section>${item}</section>`).join('')}</option>`;
+
+console.log(option);
