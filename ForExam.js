@@ -222,3 +222,17 @@ console.log(inputTags);
 const footer = `<footer>${forExam.problem29.map(item => item).join('')}</footer>`;
 
 console.log(footer);
+
+// problem30의 배열을 하나의 HTML 문자열로 병합한 후 전체를 <div> 태그로 감싸기
+const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Page</title>
+</head>
+<body>
+<div>${forExam.problem30.map(item => item).join('')}</div>
+</body>
+</html>`
+console.log(html);
