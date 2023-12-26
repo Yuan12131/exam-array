@@ -184,3 +184,11 @@ console.log(forExam.problem21);
 const ulString = `<ul>${forExam.problem22.map(item => item).join('')}</ul>`;
 
 console.log(ulString);
+
+// problem23의 배열에서 '지우'가 포함된 태그만 필터링
+const jiwoo = forExam.problem23.filter((item) => {
+  if(item.includes("지우")){
+    return item
+  }
+})
+console.log(jiwoo);
